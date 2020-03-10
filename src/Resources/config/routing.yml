@@ -1,0 +1,6 @@
+demo_route.controller.callback:
+  path: /demoroute
+  defaults:
+    _scope: frontend
+    _token_check: false
+    _controller: demo_route.controller.callback::demoroute

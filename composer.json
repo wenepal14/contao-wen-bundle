@@ -1,0 +1,23 @@
+{
+    "name": "wenepal14/contao-wen-bundle",
+    "description": "Simple Contao Bundle for Favourhoods",
+    "type": "contao-bundle",
+    "require": {
+		"contao/core-bundle": "^4.4"
+    },
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "wenepal14",
+            "email": "webexpertsnepal14@gmail.com"
+        }
+	],
+	"autoload": {
+        "psr-4": {
+            "WEN\\WENFavourhoodsBundle\\": "src/"
+        }
+	},
+	"extra": {
+		"contao-manager-plugin": "WEN\\WENFavourhoodsBundle\\ContaoManager\\Plugin"
+   }
+}
